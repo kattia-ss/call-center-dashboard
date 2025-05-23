@@ -1,0 +1,4172 @@
+cultureInfo es-SV
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "call_log": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "call_log"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "call log": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "call_log": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "log": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "call journal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "call diary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "call daybook": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "call logbook": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "journal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "diary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "daybook": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "logbook": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "call record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "call calendar": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "variables.cont_llamadas_totales": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VARIABLES",
+			          "ConceptualProperty": "CONT_LLAMADAS_TOTALES"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cont llamadas totales": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CONT_LLAMADAS_TOTALES": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Llamadas Totales": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Total Llams": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "variables.cont_llamadas_contestadas": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VARIABLES",
+			          "ConceptualProperty": "CONT_LLAMADAS_CONTESTADAS"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cont llamadas contestadas": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CONT_LLAMADAS_CONTESTADAS": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Llamadas Atenididas": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Atendio": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "variables.cont_agentes": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VARIABLES",
+			          "ConceptualProperty": "CONT_AGENTES"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cont agentes": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CONT_AGENTES": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Ejecutivos": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "variables.porc_satisfac_tot_client": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VARIABLES",
+			          "ConceptualProperty": "PORC_SATISFAC_TOT_CLIENT"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "porc satisfac tot client": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PORC_SATISFAC_TOT_CLIENT": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "porc satisfac tot customer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "porc satisfac tot shopper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "porc satisfac tot consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "porc satisfac tot patron": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "porc satisfac tot user": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "porc satisfac tot buyer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "porc satisfac tot punter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "porc satisfac tot purchaser": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "porc satisfac tot regular": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "Satisfación General del Cliente": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "variables.cont_llamadas_resueltas": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VARIABLES",
+			          "ConceptualProperty": "CONT_LLAMADAS_RESUELTAS"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cont llamadas resueltas": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CONT_LLAMADAS_RESUELTAS": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Resolvieron": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Resolvio": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Llamadas Resueltas": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Casos Resueltos": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "variables.cont_llamadas_no_resuelta": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VARIABLES",
+			          "ConceptualProperty": "CONT_LLAMADAS_NO_RESUELTA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cont llamadas no resuelta": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CONT_LLAMADAS_NO_RESUELTA": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "cont llamada number resuelta": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "No Resolvieron": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "variables.porc_casos_resueltos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VARIABLES",
+			          "ConceptualProperty": "PORC_CASOS_RESUELTOS"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "porc casos resueltos": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PORC_CASOS_RESUELTOS": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "% Casos Resueltos": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "variables.porc_casos_no_resueltos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VARIABLES",
+			          "ConceptualProperty": "PORC_CASOS_NO_RESUELTOS"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "porc casos no resueltos": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PORC_CASOS_NO_RESUELTOS": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "porc caso number resuelto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "% Casos No Resueltos": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "variables.cont_llamadas_no_contesta": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VARIABLES",
+			          "ConceptualProperty": "CONT_LLAMADAS_NO_CONTESTA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cont llamadas no contesta": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CONT_LLAMADAS_NO_CONTESTA": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "cont llamada number contesta": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "No Atendio": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "call_log.answered__y_n_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "call_log",
+			          "ConceptualProperty": "Answered__Y_N_"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "answered Y N": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Answered__Y_N_": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "N": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "Y N": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "Atendidas": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "call_log.resolved": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "call_log",
+			          "ConceptualProperty": "Resolved"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "resolved": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "determined": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "set": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "resolute": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "fixed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "committed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "Resolvieron": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "call_log.satisfaction_rating": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "call_log",
+			          "ConceptualProperty": "Satisfaction_rating"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "satisfaction rating": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Satisfaction_rating": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "rating": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "satisfaction assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "satisfaction evaluation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "evaluation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "satisfaction score": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "satisfaction grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "satisfaction ranking": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "satisfaction mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "score": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "Satisfacción": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "call_log.topic": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "call_log",
+			          "ConceptualProperty": "Topic"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "topic": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "theme": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "subject": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "matter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "issue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "area": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "focus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "Asunto": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "call_log.call_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "call_log",
+			          "ConceptualProperty": "Call_Id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "call id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Call_Id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "call": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "call identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "call identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "call identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "call credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "song": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "noise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "cry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "sound": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "plea": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "invitation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "Llamadas": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "call_log.agent": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "call_log",
+			          "ConceptualProperty": "Agent"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "agent": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "manager": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "mediator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "negotiator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "go-between": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "representative": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "proxy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "vehicle": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "driver": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "cause": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "mean": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "Nombre": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "call_log.date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "call_log",
+			          "ConceptualProperty": "Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "call_log.time": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "call_log",
+			          "ConceptualProperty": "Time"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "time": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "duration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "interval": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "timetable": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "call_log.speed_of_answer_in_seconds": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "call_log",
+			          "ConceptualProperty": "Speed_of_answer_in_seconds"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "speed of answer in seconds": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "speed of answer in second": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "Speed_of_answer_in_seconds": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "rapidity of answer in second": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "swiftness of answer in second": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "speediness of answer in second": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "quickness of answer in second": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "promptness of answer in second": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "haste of answer in second": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "hurry of answer in second": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "hustle of answer in second": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "velocity of answer in second": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.494
+			          }
+			        },
+			        {
+			          "momentum of answer in second": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.494
+			          }
+			        }
+			      ]
+			    },
+			    "call_log.avg_talk_duration": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "call_log",
+			          "ConceptualProperty": "AvgTalkDuration"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "avg talk duration": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "AvgTalkDuration": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "average talk duration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "avg talk length": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "avg talk extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "avg talk interval": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "avg talk period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "avg talk spell": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "call_log.hour": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "call_log",
+			          "ConceptualProperty": "Hour"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hour": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "era": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "epoch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "age": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "Hora del Dia": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "call_log.avg_min_talk_duration": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "call_log",
+			          "ConceptualProperty": "AvgMinTalkDuration"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "avg min talk duration": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "AvgMinTalkDuration": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "average min talk duration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "avg minimum talk duration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "avg min talk length": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "avg min talk extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "avg min talk interval": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "avg min talk period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "avg min talk spell": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        }
+			      ]
+			    },
+			    "call_log.desc_satis_cliente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "call_log",
+			          "ConceptualProperty": "DESC_SATIS_CLIENTE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "desc satis cliente": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "desc sati cliente": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "DESC_SATIS_CLIENTE": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "description sati cliente": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "Nivel Satisfacción": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fecha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FECHA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fecha": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fecha.date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FECHA",
+			          "ConceptualProperty": "Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "fecha.date.jerarquía_de_fecha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FECHA",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jerarquía de fecha": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fecha.date.año": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FECHA",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Año"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "año": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date año": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment año": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period año": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "fecha.date.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FECHA",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "fecha.date.me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FECHA",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "me": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date me": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment me": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "period me": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "fecha.date.día": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FECHA",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Día"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "día": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date día": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment día": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period día": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "fecha.anio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FECHA",
+			          "ConceptualProperty": "ANIO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "anio": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "fecha.mes_anio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FECHA",
+			          "ConceptualProperty": "MES_ANIO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mes anio": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "me anio": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "MES_ANIO": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fecha.mes_numero": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FECHA",
+			          "ConceptualProperty": "MES_NUMERO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mes numero": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "me numero": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "MES_NUMERO": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fecha.dia_numero": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FECHA",
+			          "ConceptualProperty": "DIA_NUMERO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia numero": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DIA_NUMERO": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fecha.dia_letra": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FECHA",
+			          "ConceptualProperty": "DIA_LETRAS"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia letra": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DIA_LETRAS": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Dia de la Semana": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fecha.mes_letra": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FECHA",
+			          "ConceptualProperty": "MES_LETRAS"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mes letra": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "me letra": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "MES_LETRAS": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "fecha.dia_semana": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "FECHA",
+			          "ConceptualProperty": "DIA_SEMANA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia semana": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DIA_SEMANA": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "variable": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VARIABLES"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "variable": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moveable": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "movable": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "erratic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "up-and-down": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "wavering": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "varying": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "changing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "fluctuating": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "irregular": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "variable.cont_rating_satisfac": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VARIABLES",
+			          "ConceptualProperty": "CONT_RATING_SATISFAC"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cont rating satisfac": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CONT_RATING_SATISFAC": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "variable.cont_satisfac_positiva_client": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VARIABLES",
+			          "ConceptualProperty": "CONT_SATISFAC_POSITIVA_CLIENT"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cont satisfac positiva client": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CONT_SATISFAC_POSITIVA_CLIENT": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "cont satisfac positiva customer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "cont satisfac positiva shopper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "cont satisfac positiva consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "cont satisfac positiva patron": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "cont satisfac positiva user": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "cont satisfac positiva buyer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "cont satisfac positiva punter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "cont satisfac positiva purchaser": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "cont satisfac positiva regular": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        }
+			      ]
+			    },
+			    "variable.prom_tiempo_llamada": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VARIABLES",
+			          "ConceptualProperty": "PROM_TIEMPO_LLAMADA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "prom tiempo llamada": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PROM_TIEMPO_LLAMADA": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Tiempo Prom.  en Llamada (En Min)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "variable.prom_satisfacion": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VARIABLES",
+			          "ConceptualProperty": "PROM_SATISFACION"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "prom satisfacion": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PROM_SATISFACION": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Prom. Satis Cliente": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Rating Prom. de Satisfacción": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "variable.prom_tiempo_responder_llamada": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VARIABLES",
+			          "ConceptualProperty": "PROM_TIEMPO_RESPONDER_LLAMADA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "prom tiempo responder llamada": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PROM_TIEMPO_RESPONDER_LLAMADA": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Prom. Tiempo en Contestar  (En Seg)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Tiempo Prom. en Responder (en Seg)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "variable.porc_llamadas_no_contestadas": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VARIABLES",
+			          "ConceptualProperty": "PORC_LLAMADAS_NO_CONTESTADAS"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "porc llamadas no contestadas": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PORC_LLAMADAS_NO_CONTESTADAS": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "porc llamada number contestada": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "variable_has_variables_cont_llamadas_totales": {
+			      "Binding": {
+			        "ConceptualEntity": "VARIABLES"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "variable": {
+			          "Target": {
+			            "Entity": "variable"
+			          }
+			        },
+			        "variables.cont_llamadas_totales": {
+			          "Target": {
+			            "Entity": "variables.cont_llamadas_totales"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "variable"
+			            },
+			            "Object": {
+			              "Role": "variables.cont_llamadas_totales"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "variables_have_cont_llamadas_totales"
+			        }
+			      ]
+			    },
+			    "variable_has_variables_cont_llamadas_contestadas": {
+			      "Binding": {
+			        "ConceptualEntity": "VARIABLES"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "variable": {
+			          "Target": {
+			            "Entity": "variable"
+			          }
+			        },
+			        "variables.cont_llamadas_contestadas": {
+			          "Target": {
+			            "Entity": "variables.cont_llamadas_contestadas"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "variable"
+			            },
+			            "Object": {
+			              "Role": "variables.cont_llamadas_contestadas"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "variables_have_cont_llamadas_contestadas"
+			        }
+			      ]
+			    },
+			    "call_log_has_variables_cont_agentes": {
+			      "Binding": {
+			        "ConceptualEntity": "call_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "call_log": {
+			          "Target": {
+			            "Entity": "call_log"
+			          }
+			        },
+			        "variables.cont_agentes": {
+			          "Target": {
+			            "Entity": "variables.cont_agentes"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "call_log"
+			            },
+			            "Object": {
+			              "Role": "variables.cont_agentes"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "call_logs_have_cont_agentes"
+			        }
+			      ]
+			    },
+			    "call_log_has_variables_porc_satisfac_tot_client": {
+			      "Binding": {
+			        "ConceptualEntity": "call_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "call_log": {
+			          "Target": {
+			            "Entity": "call_log"
+			          }
+			        },
+			        "variables.porc_satisfac_tot_client": {
+			          "Target": {
+			            "Entity": "variables.porc_satisfac_tot_client"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "call_log"
+			            },
+			            "Object": {
+			              "Role": "variables.porc_satisfac_tot_client"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "call_logs_have_porc_satisfac_tot_client"
+			        }
+			      ]
+			    },
+			    "variable_has_variables_cont_llamadas_resueltas": {
+			      "Binding": {
+			        "ConceptualEntity": "VARIABLES"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "variable": {
+			          "Target": {
+			            "Entity": "variable"
+			          }
+			        },
+			        "variables.cont_llamadas_resueltas": {
+			          "Target": {
+			            "Entity": "variables.cont_llamadas_resueltas"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "variable"
+			            },
+			            "Object": {
+			              "Role": "variables.cont_llamadas_resueltas"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "variables_have_cont_llamadas_resueltas"
+			        }
+			      ]
+			    },
+			    "variable_has_variables_cont_llamadas_no_resuelta": {
+			      "Binding": {
+			        "ConceptualEntity": "VARIABLES"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "variable": {
+			          "Target": {
+			            "Entity": "variable"
+			          }
+			        },
+			        "variables.cont_llamadas_no_resuelta": {
+			          "Target": {
+			            "Entity": "variables.cont_llamadas_no_resuelta"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "variable"
+			            },
+			            "Object": {
+			              "Role": "variables.cont_llamadas_no_resuelta"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "variables_have_cont_llamadas_no_resuelta"
+			        }
+			      ]
+			    },
+			    "variable_has_variables_porc_casos_resueltos": {
+			      "Binding": {
+			        "ConceptualEntity": "VARIABLES"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "variable": {
+			          "Target": {
+			            "Entity": "variable"
+			          }
+			        },
+			        "variables.porc_casos_resueltos": {
+			          "Target": {
+			            "Entity": "variables.porc_casos_resueltos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "variable"
+			            },
+			            "Object": {
+			              "Role": "variables.porc_casos_resueltos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "variables_have_porc_casos_resueltos"
+			        }
+			      ]
+			    },
+			    "variable_has_variables_porc_casos_no_resueltos": {
+			      "Binding": {
+			        "ConceptualEntity": "VARIABLES"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "variable": {
+			          "Target": {
+			            "Entity": "variable"
+			          }
+			        },
+			        "variables.porc_casos_no_resueltos": {
+			          "Target": {
+			            "Entity": "variables.porc_casos_no_resueltos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "variable"
+			            },
+			            "Object": {
+			              "Role": "variables.porc_casos_no_resueltos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "variables_have_porc_casos_no_resueltos"
+			        }
+			      ]
+			    },
+			    "variable_has_variables_cont_llamadas_no_contesta": {
+			      "Binding": {
+			        "ConceptualEntity": "VARIABLES"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "variable": {
+			          "Target": {
+			            "Entity": "variable"
+			          }
+			        },
+			        "variables.cont_llamadas_no_contesta": {
+			          "Target": {
+			            "Entity": "variables.cont_llamadas_no_contesta"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "variable"
+			            },
+			            "Object": {
+			              "Role": "variables.cont_llamadas_no_contesta"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "variables_have_cont_llamadas_no_contesta"
+			        }
+			      ]
+			    },
+			    "call_log_has_answered__y_n_": {
+			      "Binding": {
+			        "ConceptualEntity": "call_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "call_log": {
+			          "Target": {
+			            "Entity": "call_log"
+			          }
+			        },
+			        "call_log.answered__y_n_": {
+			          "Target": {
+			            "Entity": "call_log.answered__y_n_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "call_log"
+			            },
+			            "Object": {
+			              "Role": "call_log.answered__y_n_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "call_logs_have_answered_Y_Ns"
+			        }
+			      ]
+			    },
+			    "call_log_has_resolved": {
+			      "Binding": {
+			        "ConceptualEntity": "call_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "call_log": {
+			          "Target": {
+			            "Entity": "call_log"
+			          }
+			        },
+			        "call_log.resolved": {
+			          "Target": {
+			            "Entity": "call_log.resolved"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "call_log"
+			            },
+			            "Object": {
+			              "Role": "call_log.resolved"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "call_logs_have_resolved"
+			        }
+			      ]
+			    },
+			    "call_log_has_satisfaction_rating": {
+			      "Binding": {
+			        "ConceptualEntity": "call_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "call_log": {
+			          "Target": {
+			            "Entity": "call_log"
+			          }
+			        },
+			        "call_log.satisfaction_rating": {
+			          "Target": {
+			            "Entity": "call_log.satisfaction_rating"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "call_log"
+			            },
+			            "Object": {
+			              "Role": "call_log.satisfaction_rating"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "call_logs_have_satisfaction_rating"
+			        }
+			      ]
+			    },
+			    "call_log_has_topic": {
+			      "Binding": {
+			        "ConceptualEntity": "call_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "call_log": {
+			          "Target": {
+			            "Entity": "call_log"
+			          }
+			        },
+			        "call_log.topic": {
+			          "Target": {
+			            "Entity": "call_log.topic"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "call_log"
+			            },
+			            "Object": {
+			              "Role": "call_log.topic"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "call_logs_have_topics"
+			        }
+			      ]
+			    },
+			    "call_log_has_call_id": {
+			      "Binding": {
+			        "ConceptualEntity": "call_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "call_log": {
+			          "Target": {
+			            "Entity": "call_log"
+			          }
+			        },
+			        "call_log.call_id": {
+			          "Target": {
+			            "Entity": "call_log.call_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "call_log"
+			            },
+			            "Object": {
+			              "Role": "call_log.call_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "call_logs_have_call_ids"
+			        }
+			      ]
+			    },
+			    "call_log_has_agent": {
+			      "Binding": {
+			        "ConceptualEntity": "call_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "call_log": {
+			          "Target": {
+			            "Entity": "call_log"
+			          }
+			        },
+			        "call_log.agent": {
+			          "Target": {
+			            "Entity": "call_log.agent"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "call_log"
+			            },
+			            "Object": {
+			              "Role": "call_log.agent"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "call_logs_have_agents"
+			        }
+			      ]
+			    },
+			    "call_log_has_date": {
+			      "Binding": {
+			        "ConceptualEntity": "call_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "call_log": {
+			          "Target": {
+			            "Entity": "call_log"
+			          }
+			        },
+			        "call_log.date": {
+			          "Target": {
+			            "Entity": "call_log.date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "call_log"
+			            },
+			            "Object": {
+			              "Role": "call_log.date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "call_logs_have_dates"
+			        }
+			      ]
+			    },
+			    "call_log_has_time": {
+			      "Binding": {
+			        "ConceptualEntity": "call_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "call_log": {
+			          "Target": {
+			            "Entity": "call_log"
+			          }
+			        },
+			        "call_log.time": {
+			          "Target": {
+			            "Entity": "call_log.time"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "call_log"
+			            },
+			            "Object": {
+			              "Role": "call_log.time"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "call_logs_have_times"
+			        }
+			      ]
+			    },
+			    "call_log_has_speed_of_answer_in_seconds": {
+			      "Binding": {
+			        "ConceptualEntity": "call_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "call_log": {
+			          "Target": {
+			            "Entity": "call_log"
+			          }
+			        },
+			        "call_log.speed_of_answer_in_seconds": {
+			          "Target": {
+			            "Entity": "call_log.speed_of_answer_in_seconds"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "call_log"
+			            },
+			            "Object": {
+			              "Role": "call_log.speed_of_answer_in_seconds"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "call_logs_have_speed_of_answer_in_seconds"
+			        }
+			      ]
+			    },
+			    "call_log_has_avg_talk_duration": {
+			      "Binding": {
+			        "ConceptualEntity": "call_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "call_log": {
+			          "Target": {
+			            "Entity": "call_log"
+			          }
+			        },
+			        "call_log.avg_talk_duration": {
+			          "Target": {
+			            "Entity": "call_log.avg_talk_duration"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "call_log"
+			            },
+			            "Object": {
+			              "Role": "call_log.avg_talk_duration"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "call_logs_have_avg_talk_durations"
+			        }
+			      ]
+			    },
+			    "call_log_has_hour": {
+			      "Binding": {
+			        "ConceptualEntity": "call_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "call_log": {
+			          "Target": {
+			            "Entity": "call_log"
+			          }
+			        },
+			        "call_log.hour": {
+			          "Target": {
+			            "Entity": "call_log.hour"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "call_log"
+			            },
+			            "Object": {
+			              "Role": "call_log.hour"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "call_logs_have_hours"
+			        }
+			      ]
+			    },
+			    "call_log_has_avg_min_talk_duration": {
+			      "Binding": {
+			        "ConceptualEntity": "call_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "call_log": {
+			          "Target": {
+			            "Entity": "call_log"
+			          }
+			        },
+			        "call_log.avg_min_talk_duration": {
+			          "Target": {
+			            "Entity": "call_log.avg_min_talk_duration"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "call_log"
+			            },
+			            "Object": {
+			              "Role": "call_log.avg_min_talk_duration"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "call_logs_have_avg_min_talk_durations"
+			        }
+			      ]
+			    },
+			    "call_log_has_desc_satis_cliente": {
+			      "Binding": {
+			        "ConceptualEntity": "call_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "call_log": {
+			          "Target": {
+			            "Entity": "call_log"
+			          }
+			        },
+			        "call_log.desc_satis_cliente": {
+			          "Target": {
+			            "Entity": "call_log.desc_satis_cliente"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "call_log"
+			            },
+			            "Object": {
+			              "Role": "call_log.desc_satis_cliente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "call_logs_have_desc_satis_clientes"
+			        }
+			      ]
+			    },
+			    "fecha_has_date": {
+			      "Binding": {
+			        "ConceptualEntity": "FECHA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fecha": {
+			          "Target": {
+			            "Entity": "fecha"
+			          }
+			        },
+			        "fecha.date": {
+			          "Target": {
+			            "Entity": "fecha.date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fecha"
+			            },
+			            "Object": {
+			              "Role": "fecha.date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fechas_have_dates"
+			        }
+			      ]
+			    },
+			    "fecha_has_anio": {
+			      "Binding": {
+			        "ConceptualEntity": "FECHA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fecha": {
+			          "Target": {
+			            "Entity": "fecha"
+			          }
+			        },
+			        "fecha.anio": {
+			          "Target": {
+			            "Entity": "fecha.anio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fecha"
+			            },
+			            "Object": {
+			              "Role": "fecha.anio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fechas_have_anios"
+			        }
+			      ]
+			    },
+			    "fecha_has_mes_anio": {
+			      "Binding": {
+			        "ConceptualEntity": "FECHA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fecha": {
+			          "Target": {
+			            "Entity": "fecha"
+			          }
+			        },
+			        "fecha.mes_anio": {
+			          "Target": {
+			            "Entity": "fecha.mes_anio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fecha"
+			            },
+			            "Object": {
+			              "Role": "fecha.mes_anio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fechas_have_mes_anios"
+			        }
+			      ]
+			    },
+			    "fecha_has_mes_numero": {
+			      "Binding": {
+			        "ConceptualEntity": "FECHA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fecha": {
+			          "Target": {
+			            "Entity": "fecha"
+			          }
+			        },
+			        "fecha.mes_numero": {
+			          "Target": {
+			            "Entity": "fecha.mes_numero"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fecha"
+			            },
+			            "Object": {
+			              "Role": "fecha.mes_numero"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fechas_have_mes_numeros"
+			        }
+			      ]
+			    },
+			    "fecha_has_dia_numero": {
+			      "Binding": {
+			        "ConceptualEntity": "FECHA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fecha": {
+			          "Target": {
+			            "Entity": "fecha"
+			          }
+			        },
+			        "fecha.dia_numero": {
+			          "Target": {
+			            "Entity": "fecha.dia_numero"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fecha"
+			            },
+			            "Object": {
+			              "Role": "fecha.dia_numero"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fechas_have_dia_numeros"
+			        }
+			      ]
+			    },
+			    "fecha_has_dia_letra": {
+			      "Binding": {
+			        "ConceptualEntity": "FECHA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fecha": {
+			          "Target": {
+			            "Entity": "fecha"
+			          }
+			        },
+			        "fecha.dia_letra": {
+			          "Target": {
+			            "Entity": "fecha.dia_letra"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fecha"
+			            },
+			            "Object": {
+			              "Role": "fecha.dia_letra"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fechas_have_dia_letras"
+			        }
+			      ]
+			    },
+			    "fecha_has_mes_letra": {
+			      "Binding": {
+			        "ConceptualEntity": "FECHA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fecha": {
+			          "Target": {
+			            "Entity": "fecha"
+			          }
+			        },
+			        "fecha.mes_letra": {
+			          "Target": {
+			            "Entity": "fecha.mes_letra"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fecha"
+			            },
+			            "Object": {
+			              "Role": "fecha.mes_letra"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fechas_have_mes_letras"
+			        }
+			      ]
+			    },
+			    "fecha_has_dia_semana": {
+			      "Binding": {
+			        "ConceptualEntity": "FECHA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fecha": {
+			          "Target": {
+			            "Entity": "fecha"
+			          }
+			        },
+			        "fecha.dia_semana": {
+			          "Target": {
+			            "Entity": "fecha.dia_semana"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fecha"
+			            },
+			            "Object": {
+			              "Role": "fecha.dia_semana"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fechas_have_dia_semanas"
+			        }
+			      ]
+			    },
+			    "call_log_has_variable_cont_rating_satisfac": {
+			      "Binding": {
+			        "ConceptualEntity": "call_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "call_log": {
+			          "Target": {
+			            "Entity": "call_log"
+			          }
+			        },
+			        "variable.cont_rating_satisfac": {
+			          "Target": {
+			            "Entity": "variable.cont_rating_satisfac"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "call_log"
+			            },
+			            "Object": {
+			              "Role": "variable.cont_rating_satisfac"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "call_logs_have_cont_rating_satisfac"
+			        }
+			      ]
+			    },
+			    "call_log_has_variable_cont_satisfac_positiva_client": {
+			      "Binding": {
+			        "ConceptualEntity": "call_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "call_log": {
+			          "Target": {
+			            "Entity": "call_log"
+			          }
+			        },
+			        "variable.cont_satisfac_positiva_client": {
+			          "Target": {
+			            "Entity": "variable.cont_satisfac_positiva_client"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "call_log"
+			            },
+			            "Object": {
+			              "Role": "variable.cont_satisfac_positiva_client"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "call_logs_have_cont_satisfac_positiva_client"
+			        }
+			      ]
+			    },
+			    "call_log_has_variable_prom_tiempo_llamada": {
+			      "Binding": {
+			        "ConceptualEntity": "call_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "call_log": {
+			          "Target": {
+			            "Entity": "call_log"
+			          }
+			        },
+			        "variable.prom_tiempo_llamada": {
+			          "Target": {
+			            "Entity": "variable.prom_tiempo_llamada"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "call_log"
+			            },
+			            "Object": {
+			              "Role": "variable.prom_tiempo_llamada"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "call_logs_have_prom_tiempo_llamada"
+			        }
+			      ]
+			    },
+			    "call_log_has_variable_prom_satisfacion": {
+			      "Binding": {
+			        "ConceptualEntity": "call_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "call_log": {
+			          "Target": {
+			            "Entity": "call_log"
+			          }
+			        },
+			        "variable.prom_satisfacion": {
+			          "Target": {
+			            "Entity": "variable.prom_satisfacion"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "call_log"
+			            },
+			            "Object": {
+			              "Role": "variable.prom_satisfacion"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "call_logs_have_prom_satisfacion"
+			        }
+			      ]
+			    },
+			    "call_log_has_variable_prom_tiempo_responder_llamada": {
+			      "Binding": {
+			        "ConceptualEntity": "call_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "call_log": {
+			          "Target": {
+			            "Entity": "call_log"
+			          }
+			        },
+			        "variable.prom_tiempo_responder_llamada": {
+			          "Target": {
+			            "Entity": "variable.prom_tiempo_responder_llamada"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "call_log"
+			            },
+			            "Object": {
+			              "Role": "variable.prom_tiempo_responder_llamada"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "call_logs_have_prom_tiempo_responder_llamada"
+			        }
+			      ]
+			    },
+			    "variable_has_porc_llamadas_no_contestadas": {
+			      "Binding": {
+			        "ConceptualEntity": "VARIABLES"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "variable": {
+			          "Target": {
+			            "Entity": "variable"
+			          }
+			        },
+			        "variable.porc_llamadas_no_contestadas": {
+			          "Target": {
+			            "Entity": "variable.porc_llamadas_no_contestadas"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "variable"
+			            },
+			            "Object": {
+			              "Role": "variable.porc_llamadas_no_contestadas"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "variables_have_porc_llamadas_no_contestadas"
+			        }
+			      ]
+			    },
+			    "call_log_has_fecha": {
+			      "Binding": {
+			        "ConceptualEntity": "call_log"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "call_log": {
+			          "Target": {
+			            "Entity": "call_log"
+			          }
+			        },
+			        "fecha": {
+			          "Target": {
+			            "Entity": "fecha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "call_log"
+			            },
+			            "Object": {
+			              "Role": "fecha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "call_logs_have_fechas"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fecha"
+			            },
+			            "Object": {
+			              "Role": "call_log"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fechas_have_call_logs"
+			        }
+			      ]
+			    },
+			    "fecha_date_has_jerarquía_de_fecha": {
+			      "Binding": {
+			        "ConceptualEntity": "FECHA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fecha.date": {
+			          "Target": {
+			            "Entity": "fecha.date"
+			          }
+			        },
+			        "fecha.date.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "fecha.date.jerarquía_de_fecha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fecha.date"
+			            },
+			            "Object": {
+			              "Role": "fecha.date.jerarquía_de_fecha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dates_have_jerarquía_de_fechas"
+			        }
+			      ]
+			    },
+			    "fecha_date_jerarquía_de_fecha_has_fecha_date_año": {
+			      "Binding": {
+			        "ConceptualEntity": "FECHA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fecha.date.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "fecha.date.jerarquía_de_fecha"
+			          }
+			        },
+			        "fecha.date.año": {
+			          "Target": {
+			            "Entity": "fecha.date.año"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fecha.date.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "fecha.date.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_años"
+			        }
+			      ]
+			    },
+			    "fecha_date_jerarquía_de_fecha_has_fecha_date_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "FECHA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fecha.date.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "fecha.date.jerarquía_de_fecha"
+			          }
+			        },
+			        "fecha.date.trimestre": {
+			          "Target": {
+			            "Entity": "fecha.date.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fecha.date.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "fecha.date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_trimestres"
+			        }
+			      ]
+			    },
+			    "fecha_date_jerarquía_de_fecha_has_fecha_date_me": {
+			      "Binding": {
+			        "ConceptualEntity": "FECHA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fecha.date.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "fecha.date.jerarquía_de_fecha"
+			          }
+			        },
+			        "fecha.date.me": {
+			          "Target": {
+			            "Entity": "fecha.date.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fecha.date.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "fecha.date.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_me"
+			        }
+			      ]
+			    },
+			    "fecha_date_jerarquía_de_fecha_has_fecha_date_día": {
+			      "Binding": {
+			        "ConceptualEntity": "FECHA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fecha.date.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "fecha.date.jerarquía_de_fecha"
+			          }
+			        },
+			        "fecha.date.día": {
+			          "Target": {
+			            "Entity": "fecha.date.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fecha.date.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "fecha.date.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_días"
+			        }
+			      ]
+			    },
+			    "fecha_date_año_has_fecha_date_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "FECHA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fecha.date.año": {
+			          "Target": {
+			            "Entity": "fecha.date.año"
+			          }
+			        },
+			        "fecha.date.trimestre": {
+			          "Target": {
+			            "Entity": "fecha.date.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fecha.date.año"
+			            },
+			            "Object": {
+			              "Role": "fecha.date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "años_have_trimestres"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fecha.date.trimestre"
+			            },
+			            "Object": {
+			              "Role": "fecha.date.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_años"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "fecha.date.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "fecha.date.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_años"
+			        }
+			      ]
+			    },
+			    "fecha_date_trimestre_has_fecha_date_me": {
+			      "Binding": {
+			        "ConceptualEntity": "FECHA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fecha.date.trimestre": {
+			          "Target": {
+			            "Entity": "fecha.date.trimestre"
+			          }
+			        },
+			        "fecha.date.me": {
+			          "Target": {
+			            "Entity": "fecha.date.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fecha.date.trimestre"
+			            },
+			            "Object": {
+			              "Role": "fecha.date.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_me"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fecha.date.me"
+			            },
+			            "Object": {
+			              "Role": "fecha.date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_trimestres"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "fecha.date.me"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "fecha.date.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_are_in_trimestres"
+			        }
+			      ]
+			    },
+			    "fecha_date_me_has_fecha_date_día": {
+			      "Binding": {
+			        "ConceptualEntity": "FECHA"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "fecha.date.me": {
+			          "Target": {
+			            "Entity": "fecha.date.me"
+			          }
+			        },
+			        "fecha.date.día": {
+			          "Target": {
+			            "Entity": "fecha.date.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fecha.date.me"
+			            },
+			            "Object": {
+			              "Role": "fecha.date.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_días"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "fecha.date.día"
+			            },
+			            "Object": {
+			              "Role": "fecha.date.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_have_me"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "fecha.date.día"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "fecha.date.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_are_in_me"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.0.0"
+			    }
+			  }
+			}
+		contentType: json
+

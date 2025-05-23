@@ -1,0 +1,9 @@
+relationship 741694e5-4806-4c9b-9b2d-d1f2ab2c511a
+	joinOnDateBehavior: datePartOnly
+	fromColumn: FECHA.Date
+	toColumn: LocalDateTable_fdb45efa-eac9-4ec9-9cc5-bb1d9ca4360b.Date
+
+relationship e9fa1b29-7206-4397-a127-ce38c771f243
+	fromColumn: call_log.Date
+	toColumn: FECHA.Date
+

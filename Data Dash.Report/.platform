@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Data Dash"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "10adddc0-4dfd-41f4-bd92-7d2a9d987729"
+  }
+}

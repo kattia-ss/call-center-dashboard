@@ -1,0 +1,77 @@
+table VARIABLES
+	lineageTag: cec9d4b9-4fab-48b9-a158-1284ca70b26c
+
+	measure CONT_RATING_SATISFAC = COUNT(call_log[Satisfaction_rating])
+		formatString: 0
+		lineageTag: 0b179aea-0a6f-4a8b-964f-273c8c5cdfc9
+
+	measure CONT_LLAMADAS_CONTESTADAS = COUNTX( FILTER( call_log, call_log[Answered__Y_N_] = "S" ), call_log[Answered__Y_N_])
+		formatString: 0
+		lineageTag: f8657784-b3aa-47e7-af09-e3de29ed7c23
+
+	measure CONT_SATISFAC_POSITIVA_CLIENT = CALCULATE(COUNT(call_log[Satisfaction_rating]),FILTER(call_log,call_log[Satisfaction_rating] IN {4,5}))
+		formatString: 0
+		lineageTag: ab96c402-7fd0-43bb-bb23-86618f9c3379
+
+	measure PORC_SATISFAC_TOT_CLIENT = [CONT_SATISFAC_POSITIVA_CLIENT]/[CONT_RATING_SATISFAC]
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		lineageTag: 7667c0b9-51a2-4cdb-b13d-44530b94f1c3
+
+	measure CONT_LLAMADAS_RESUELTAS = COUNTX(FILTER(call_log,call_log[Resolved]="S"),call_log[Resolved])
+		formatString: 0
+		lineageTag: f6b5e1b9-b56c-487b-b1c3-0bb6995cb0f2
+
+	measure CONT_LLAMADAS_NO_CONTESTA = COUNTX( FILTER( call_log, call_log[Answered__Y_N_] = "N" ), call_log[Answered__Y_N_])
+		formatString: 0
+		lineageTag: bbef976d-4988-4e6f-8498-07349303205a
+
+	measure CONT_LLAMADAS_NO_RESUELTA = COUNTX(FILTER(call_log,call_log[Resolved]="S"),call_log[Resolved])
+		formatString: 0
+		lineageTag: c98bace0-b409-4d37-a138-6b3a216d1e96
+
+	measure CONT_LLAMADAS_TOTALES = [CONT_LLAMADAS_CONTESTADAS] + [CONT_LLAMADAS_NO_CONTESTA]
+		formatString: 0
+		lineageTag: e26e08cf-159a-4a76-b1ed-5bdf038fde53
+
+	measure CONT_AGENTES = DISTINCTCOUNT(call_log[Agent])
+		formatString: 0
+		lineageTag: aa39e2e2-4d5f-4e83-afd0-a49648ed9997
+
+	measure PORC_CASOS_RESUELTOS = [CONT_LLAMADAS_RESUELTAS]/[CONT_LLAMADAS_CONTESTADAS]
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		lineageTag: 72620772-a55d-4bb4-9445-94e31069001b
+
+	measure PORC_CASOS_NO_RESUELTOS = [CONT_LLAMADAS_NO_RESUELTA] /[CONT_LLAMADAS_CONTESTADAS]
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		lineageTag: f12f129b-347d-48e6-bb58-3599fbffb38f
+
+	measure PROM_TIEMPO_LLAMADA = AVERAGE(call_log[AvgMinTalkDuration])
+		lineageTag: 6766ea82-3152-44c1-917b-25e87ad1b034
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure PROM_SATISFACION = CALCULATE(AVERAGE(call_log[Satisfaction_rating]),call_log[Resolved]="S")
+		lineageTag: 410040df-0f2a-40e8-b8e1-730ce245d83f
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure PROM_TIEMPO_RESPONDER_LLAMADA = CALCULATE(AVERAGE(call_log[Speed_of_answer_in_seconds]),call_log[Answered__Y_N_]="S")
+		formatString: 0.00
+		lineageTag: 111e9ddf-53a1-405a-8a4c-d6295237f984
+
+	measure PORC_LLAMADAS_NO_CONTESTADAS = [CONT_LLAMADAS_NO_CONTESTA]/[CONT_LLAMADAS_TOTALES]
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		lineageTag: 1a4b313a-2e53-4513-9066-11ff294a2cbe
+
+	partition VARIABLES = m
+		mode: import
+		source =
+				let
+				    Origen = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i45WclSKjQUA", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Columna1 = _t]),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(Origen,{{"Columna1", type text}}),
+				    #"Columnas quitadas" = Table.RemoveColumns(#"Tipo cambiado",{"Columna1"})
+				in
+				    #"Columnas quitadas"
+
+	annotation PBI_ResultType = Table
+

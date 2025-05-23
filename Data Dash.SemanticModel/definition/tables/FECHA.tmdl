@@ -1,0 +1,71 @@
+table FECHA
+	lineageTag: aabf8b69-3c51-4d3c-a59a-f8f3ae8c405b
+
+	column Date
+		formatString: General Date
+		lineageTag: dce832eb-82a2-4ae1-aca1-95776c1647cf
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Date]
+
+		variation Variación
+			isDefault
+			relationship: 741694e5-4806-4c9b-9b2d-d1f2ab2c511a
+			defaultHierarchy: LocalDateTable_fdb45efa-eac9-4ec9-9cc5-bb1d9ca4360b.'Jerarquía de fechas'
+
+		annotation SummarizationSetBy = Automatic
+
+	column ANIO = YEAR(FECHA[Date])
+		formatString: 0
+		lineageTag: e9bdc3bb-5e95-422a-b64b-8d05822a7f14
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column MES_ANIO = FORMAT(FECHA[Date],"mmyyyy")
+		lineageTag: e6fd5c54-c769-458d-85b7-a74650cae285
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column MES_NUMERO = MONTH(FECHA[Date])
+		formatString: 0
+		lineageTag: f9ee50c6-a2cb-4703-9399-6abb4b53641d
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column DIA_NUMERO = WEEKDAY(DAY(FECHA[Date]))
+		formatString: 0
+		lineageTag: ea2a1a8a-b3ab-4d04-8b5d-90081cf3105f
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column DIA_LETRAS = FORMAT(FECHA[Date],"dddd")
+		lineageTag: fe9ca30e-38d4-4cdb-8f56-785ca6a15d92
+		summarizeBy: none
+		sortByColumn: DIA_SEMANA
+
+		annotation SummarizationSetBy = Automatic
+
+	column MES_LETRAS = FORMAT(FECHA[Date],"MMMM")
+		lineageTag: 20ee2c3d-6cb6-4d70-8654-07c08055d65a
+		summarizeBy: none
+		sortByColumn: MES_NUMERO
+
+		annotation SummarizationSetBy = Automatic
+
+	column DIA_SEMANA = WEEKDAY(FECHA[Date],1)
+		formatString: 0
+		lineageTag: c2f9fed0-be10-41ab-8072-502b2bdda4be
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	partition FECHA = calculated
+		mode: import
+		source = CALENDAR(DATE(2021,01,01),DATE(2021,12,31))
+
+	annotation PBI_Id = f18afb4adf374e959c66822bf555c7a8
+
