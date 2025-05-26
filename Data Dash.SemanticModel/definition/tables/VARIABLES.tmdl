@@ -1,15 +1,15 @@
 table VARIABLES
 	lineageTag: cec9d4b9-4fab-48b9-a158-1284ca70b26c
 
-	measure CONT_RATING_SATISFAC = COUNT(call_log[Satisfaction_rating])
+	measure CONT_RATING_SATISFAC = COUNT(call_log[Satisfaction rating])
 		formatString: 0
 		lineageTag: 0b179aea-0a6f-4a8b-964f-273c8c5cdfc9
 
-	measure CONT_LLAMADAS_CONTESTADAS = COUNTX( FILTER( call_log, call_log[Answered__Y_N_] = "S" ), call_log[Answered__Y_N_])
+	measure CONT_LLAMADAS_CONTESTADAS = COUNTX( FILTER( call_log, call_log[Answered (Y/N)] = "S" ), call_log[Answered (Y/N)])
 		formatString: 0
 		lineageTag: f8657784-b3aa-47e7-af09-e3de29ed7c23
 
-	measure CONT_SATISFAC_POSITIVA_CLIENT = CALCULATE(COUNT(call_log[Satisfaction_rating]),FILTER(call_log,call_log[Satisfaction_rating] IN {4,5}))
+	measure CONT_SATISFAC_POSITIVA_CLIENT = CALCULATE(COUNT(call_log[Satisfaction rating]),FILTER(call_log,call_log[Satisfaction rating] IN {4,5}))
 		formatString: 0
 		lineageTag: ab96c402-7fd0-43bb-bb23-86618f9c3379
 
@@ -21,7 +21,7 @@ table VARIABLES
 		formatString: 0
 		lineageTag: f6b5e1b9-b56c-487b-b1c3-0bb6995cb0f2
 
-	measure CONT_LLAMADAS_NO_CONTESTA = COUNTX( FILTER( call_log, call_log[Answered__Y_N_] = "N" ), call_log[Answered__Y_N_])
+	measure CONT_LLAMADAS_NO_CONTESTA = COUNTX( FILTER( call_log, call_log[Answered (Y/N)] = "N" ), call_log[Answered (Y/N)])
 		formatString: 0
 		lineageTag: bbef976d-4988-4e6f-8498-07349303205a
 
@@ -50,12 +50,12 @@ table VARIABLES
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
-	measure PROM_SATISFACION = CALCULATE(AVERAGE(call_log[Satisfaction_rating]),call_log[Resolved]="S")
+	measure PROM_SATISFACION = CALCULATE(AVERAGE(call_log[Satisfaction rating]),call_log[Resolved]="S")
 		lineageTag: 410040df-0f2a-40e8-b8e1-730ce245d83f
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
-	measure PROM_TIEMPO_RESPONDER_LLAMADA = CALCULATE(AVERAGE(call_log[Speed_of_answer_in_seconds]),call_log[Answered__Y_N_]="S")
+	measure PROM_TIEMPO_RESPONDER_LLAMADA = CALCULATE(AVERAGE(call_log[Speed of answer in seconds]),call_log[Answered (Y/N)]="S")
 		formatString: 0.00
 		lineageTag: 111e9ddf-53a1-405a-8a4c-d6295237f984
 
